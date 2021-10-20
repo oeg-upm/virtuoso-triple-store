@@ -1,0 +1,75 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix building: <http://bimerr.iot.linkeddata.es/def/building#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix data: <http://bimerr.iot.linkeddata.es/def/building/data/> .
+@prefix s4bldg: <https://saref.etsi.org/saref4bldg/> .
+@base <http://theontology.namespace.com> .
+
+
+data:Building01 rdf:type building:Building ;
+				building:ifcIdentifier "2cZtnlll9DugwKjW2uDsyk"^^xsd:string ;
+				bot:hasSimple3DModel "Demo.ifc"^^xsd:string ;
+				bot:hasStorey data:Storey01 ;
+				bot:hasStorey data:Storey02 ;
+				bot:hasStorey data:Storey03 .
+
+				
+data:Storey01 rdf:type building:Storey ;
+				building:ifcIdentifier "2cZtnlll9DugwKjW17o96y"^^xsd:string ;
+				bot:hasSimple3DModel "Storey01Demo.ifc"^^xsd:string ;
+				bot:hasSpace data:Space06 ;
+				bot:hasSpace data:Space05 ;
+				bot:hasSpace data:Space04 ;
+				bot:hasSpace data:Space03 .
+				
+				
+data:Storey02 rdf:type building:Storey ;
+				building:ifcIdentifier "2cZtnlll9DugwKjW17o9hm"^^xsd:string ;
+				bot:hasSimple3DModel "Storey02Demo.ifc"^^xsd:string ;
+				bot:hasSpace data:Space01 ;
+				bot:hasSpace data:Space02 .
+				
+data:Space01 rdf:type building:Space ;
+				building:ifcIdentifier "2FLiW1MCH1XfYx1R6AOeBX"^^xsd:string ;
+				bot:hasElement data:Slab01 ;
+				bot:hasElement data:Door01 ;
+				bot:hasElement data:Wall01 ;
+				bot:hasElement data:Window01 ;
+				bot:hasObXMLFile "Space01.xml"^^xsd:string .
+				
+data:Space02 rdf:type building:Space ;
+				building:ifcIdentifier "21k6TRX65C8uVkZ_xgGA$W"^^xsd:string .
+				
+data:Space03 rdf:type building:Space ;
+				building:ifcIdentifier "21k6TRX65C8uVkZ_xgGA_4"^^xsd:string .
+				
+data:Space04 rdf:type building:Space ;
+				building:ifcIdentifier "21k6TRX65C8uVkZ_xgGA_A"^^xsd:string .
+				
+data:Space05 rdf:type building:Space ;
+				building:ifcIdentifier "21k6TRX65C8uVkZ_xgGA_8"^^xsd:string .
+				
+data:Space06 rdf:type building:Space ;
+				building:ifcIdentifier "21k6TRX65C8uVkZ_xgGA_D"^^xsd:string .
+					
+				
+data:Door01 rdf:type building:Door ;
+				building:ifcIdentifier "0fDB5ElAj57xCQcImQUbY_"^^xsd:string .
+						
+				
+data:Window01 rdf:type building:Window ;
+				building:ifcIdentifier "0fDB5ElAj57xCQcImQUbOE"^^xsd:string .
+				
+				
+data:Slab01 rdf:type building:Slab ;
+				building:ifcIdentifier "33Xzau605B1uKWN1_ZPJEV"^^xsd:string .
+				
+data:Wall01 rdf:type building:Wall ;
+				building:ifcIdentifier "21k6TRX65C8uVkZ_xgGA_Z"^^xsd:string .
