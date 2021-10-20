@@ -1,0 +1,484 @@
+@base          <http://helio.linkeddata.es/> .
+<http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1/Grove_-_Temperature&Humidity_Sensor_Pro(DHT22)>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#Sensor> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locatedInPort>
+                4 ;
+        <https://saref.etsi.org/core/hasModel>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1/Grove_-_Temperature&Humidity_Sensor_Pro(DHT22)/RelativeHumidity> , <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1/Grove_-_Temperature&Humidity_Sensor_Pro(DHT22)/Temperature> .
+
+<http://sensorize.linkeddata.es/resource/RAMFree/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#HWProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#Internal> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                739.5 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/megabyte> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#RAMFree> .
+
+<http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1/Grove_-_Loudness_Sensor>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#Sensor> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locatedInPort>
+                0 .
+
+<http://sensorize.linkeddata.es/resource/LuminousResistance/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#Internal> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                198.78 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/ohm> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_05-10-2021_15~13~11_RP1/Grove_-_Light_Sensor_1*2/LuminousResistance> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#LuminousResistance> .
+
+<http://sensorize.linkeddata.es/resource/CPUUsage/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#HWProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#Internal> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                9.37844 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/percentage> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#CPUUsage> .
+
+<http://sensorize.linkeddata.es/resource/Pressure/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#External> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                1021.0 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/pascal> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#Pressure> .
+
+<http://sensorize.linkeddata.es/resource/RAMUsage/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#HWProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#Internal> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                175.7 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/megabyte> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#RAMUsage> .
+
+<http://sensorize.linkeddata.es/resource/Uvi/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#External> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                4.12 ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#Uvi> .
+
+<http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1/Grove_-_VOC_and_eCO2_Gas_Sensor(SGP30)>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#Sensor> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locatedInPort>
+                "Bus Port"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <https://saref.etsi.org/core/hasModel>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1/Grove_-_VOC_and_eCO2_Gas_Sensor(SGP30)/TVOC> , <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1/Grove_-_VOC_and_eCO2_Gas_Sensor(SGP30)/CO2eq> .
+
+<http://sensorize.linkeddata.es/resource/CO2eq/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#Internal> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                420.0 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/partsPerMillion> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_05-10-2021_15~13~11_RP1/Grove_-_VOC_and_eCO2_Gas_Sensor(SGP30)/CO2eq> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#CO2eq> .
+
+<http://sensorize.linkeddata.es/resource/Temp/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#External> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                22.27 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/degreeCelsius> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#Temp> .
+
+<http://sensorize.linkeddata.es/resource/DISKTotal/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#HWProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#Internal> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                29.0 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/gigabyte> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#DISKTotal> .
+
+<http://sensorize.linkeddata.es/resource/VisibilityDistance/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#External> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                10000.0 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/metre> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#VisibilityDistance> .
+
+<http://sensorize.linkeddata.es/resource/DISKFree/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#HWProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#Internal> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                17.0 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/gigabyte> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#DISKFree> .
+
+<http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727>
+        a       <https://w3id.org/saref/Device> ;
+        <http://www.w3.org/2003/01/geo/wgs84_pos#location>
+                <http://sensorize.linkeddata.es/resource/Point/Madrid> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locatedIn>
+                <http://sensorize.linkeddata.es/resource/country/Spain> , <http://sensorize.linkeddata.es/resource/district/Rivas-Vaciamadrid> , <http://sensorize.linkeddata.es/resource/city/Madrid> .
+
+<http://sensorize.linkeddata.es/resource/RelativeHumidity/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#Internal> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                51.3 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/percentage> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_05-10-2021_15~13~11_RP1/Grove_-_Temperature&Humidity_Sensor_Pro(DHT22)/RelativeHumidity> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#RelativeHumidity> .
+
+<http://sensorize.linkeddata.es/resource/DewPoint/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#External> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                11.66 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/degreeCelsius> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#DewPoint> .
+
+<http://sensorize.linkeddata.es/resource/CPUTemp/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#HWProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#Internal> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                60.3 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/degreeCelsius> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#CPUTemp> .
+
+<http://sensorize.linkeddata.es/resource/Point/Madrid>
+        a       <http://www.w3.org/2003/01/geo/wgs84_pos#Point> ;
+        <http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+                40.3302 ;
+        <http://www.w3.org/2003/01/geo/wgs84_pos#long>
+                -3.4727 .
+
+<http://sensorize.linkeddata.es/resource/TVOC/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#Internal> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                6.0 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <https://bimerr.iot.linkeddata.es/def/weather#partsPerBillion> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_05-10-2021_15~13~11_RP1/Grove_-_VOC_and_eCO2_Gas_Sensor(SGP30)/TVOC> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#TVOC> .
+
+<http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1/Grove_-_Light_Sensor_1*2>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#Sensor> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locatedInPort>
+                1 ;
+        <https://saref.etsi.org/core/hasModel>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1/Grove_-_Light_Sensor_1*2/LuminousResistance> , <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1/Grove_-_Light_Sensor_1*2/LuminousIntensity> .
+
+<http://sensorize.linkeddata.es/resource/DISKUsage/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#HWProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#Internal> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                38.0 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/percentage> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#DISKUsage> .
+
+<http://sensorize.linkeddata.es/resource/WindDeg/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#External> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                251.0 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/percentage> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#WindDeg> .
+
+<http://sensorize.linkeddata.es/resource/Humidity/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#External> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                51.0 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/percentage> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#Humidity> .
+
+<http://sensorize.linkeddata.es/resource/Loudness/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#Internal> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                37.03 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/decibel> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_05-10-2021_15~13~11_RP1/Grove_-_Loudness_Sensor/Loudness> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#Loudness> .
+
+<http://sensorize.linkeddata.es/resource/WindSpeed/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#External> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                2.24 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/metrePerSecond-Time> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#WindSpeed> .
+
+<http://sensorize.linkeddata.es/resource/WindGust/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#External> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                5.36 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/metrePerSecond-Time> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#WindGust> .
+
+<http://sensorize.linkeddata.es/resource/Clouds/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#External> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                20.0 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/percentage> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#Clouds> .
+
+<http://sensorize.linkeddata.es/resource/FeelsLike/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#External> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                21.88 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/degreeCelsius> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#FeelsLike> .
+
+<http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#Device> ;
+        <https://saref.etsi.org/core/hasModel>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1/Grove_-_Loudness_Sensor> , <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1/Grove_-_Temperature&Humidity_Sensor_Pro(DHT22)> , <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1/Grove_-_Light_Sensor_1*2> , <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1/Grove_-_VOC_and_eCO2_Gas_Sensor(SGP30)> .
+
+<http://sensorize.linkeddata.es/resource/RAMTotal/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#HWProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#Internal> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                1917.6 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/megabyte> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#RAMTotal> .
+
+<http://sensorize.linkeddata.es/resource/DetailedStatus/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#External> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                "few clouds"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_RPI1> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#DetailedStatus> .
+
+<http://sensorize.linkeddata.es/resource/Temperature/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#Internal> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                25.6 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/degreeCelsius> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_05-10-2021_15~13~11_RP1/Grove_-_Temperature&Humidity_Sensor_Pro(DHT22)/Temperature> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#Temperature> .
+
+<http://sensorize.linkeddata.es/resource/LuminousIntensity/Madrid_40*3302_-3*4727_05-10-2021_15~13~11>
+        a       <https://bimerr.iot.linkeddata.es/def/weather#WeatherProperty> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#locationOfMeasurement>
+                <https://bimerr.iot.linkeddata.es/def/weather#Internal> ;
+        <https://bimerr.iot.linkeddata.es/def/weather#observedInSeason>
+                <https://bimerr.iot.linkeddata.es/def/weather#Fall> ;
+        <https://saref.etsi.org/core/hasTimeStamp>
+                "05/10/2021 15:13:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <https://saref.etsi.org/core/hasValue>
+                49.0 ;
+        <https://saref.etsi.org/core/isMeasuredIn>
+                <http://www.ontology-of-units-of-measure.org/resource/om-2/candela> ;
+        <https://saref.etsi.org/core/measurementMadeBy>
+                <http://sensorize.linkeddata.es/resource/Device/Madrid_40*3302_-3*4727_05-10-2021_15~13~11_RP1/Grove_-_Light_Sensor_1*2/LuminousIntensity> ;
+        <https://saref.etsi.org/core/relatesToProperty>
+                <https://bimerr.iot.linkeddata.es/def/weather#LuminousIntensity> .
