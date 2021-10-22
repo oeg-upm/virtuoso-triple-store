@@ -7,7 +7,9 @@ from rdflib.term import URIRef, Literal
 
 def insert_data(graph_uri, filepath):
 
-    sparql = SPARQLWrapper("http://localhost:8890/sparql")
+    sparql = SPARQLWrapper("http://localhost:8890/sparql-auth")
+    sparql.setHTTPAuth(DIGEST)
+    sparql.setCredentials('demo1','mysecret')
     sparql.setMethod(POST)
 
     g = rdflib.Graph()

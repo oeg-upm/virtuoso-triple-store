@@ -1,6 +1,6 @@
 # Triple Store
 
-We will use the Virtuoso triple store for the storage of the rdf data in the digital twin platform.
+Virtuoso triple store for the storage of the rdf data in the digital twin platform.
 
 ## Setting up virtuoso
 
