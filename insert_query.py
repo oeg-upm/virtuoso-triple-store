@@ -5,7 +5,7 @@ import argparse
 from SPARQLWrapper import SPARQLWrapper, JSON, N3, POST, DIGEST, XML
 from rdflib.term import URIRef, Literal
 
-def insert_data(graph_uri, filepath):
+def insert_data(graph_uri, data):
 
     sparql = SPARQLWrapper("http://localhost:8890/sparql-auth")
     sparql.setHTTPAuth(DIGEST)
@@ -13,7 +13,7 @@ def insert_data(graph_uri, filepath):
     sparql.setMethod(POST)
 
     g = rdflib.Graph()
-    g.parse(filepath, format="turtle")
+    g.parse(data=data, format="turtle")
 
     # We have to reestructure the data in order to give it the format
     # of SPARQL queries, e.g. with the prefixes instead of the whole URI's.
